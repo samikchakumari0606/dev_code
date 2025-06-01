@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Navbar</title>
+    <style>
+        .navbar {
+            height: 70px;
+            width: 100%;
+            border: 1px solid #999;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(132, 132, 209);
+            cursor: pointer;
+        }
+
+        .search {
+            border: 1px solid #999;
+            padding: 0px 80px;
+            margin: left;
+            border-radius: 5px;
+            color: white;
+             margin: 10px;
+        }
+
+        input {
+            padding: 10px 90px;
+            border: none;
+            outline: none;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            width: 30%;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .user-list{
+            display: flex;
+            align-items: center;
+            padding:0px 30px;
+            color: white;
+            
+        }
+        .fa-solid{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+                alt="">
+        </div>
+
+        <div class="search">
+
+            <input type="text" placeholder="search for products brands and many more">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+
+        <div class="user">
+            <div class="user-list">
+                <i class="fa-solid fa-user-tie"></i>
+                <p>Login</p>
+            </div>
+            <div class="user-list">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+            <div class="user-list">
+                <i class="fa-solid fa-gift"></i>
+                <p>Become a seller</p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </nav>
+</body>
+
+</html>
